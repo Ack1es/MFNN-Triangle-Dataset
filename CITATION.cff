@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this synthetic triangle dataset, please cite this dataset and the associated manuscript when available."
+type: dataset
+title: "MFNN Triangle Dataset"
+version: 1.0.0
+repository-code: "https://github.com/Ack1es/MFNN-Triangle-Dataset"
+authors:
+  - family-names: Wang
+    given-names: Le-chen
+  - family-names: Li
+    given-names: Xu
+  - family-names: Chen
+    given-names: Zu-yu
+abstract: "A dataset of 10,000 synthetic triangles and standalone NumPy construction code. Two side lengths and their included angle are sampled independently; the remaining side and angles are derived from triangle geometry. No model training, evaluation results, data partitions, or TBM engineering data are included."
+keywords:
+  - synthetic geometry
+  - triangle dataset
+  - dataset construction
+  - mutual feedback neural network

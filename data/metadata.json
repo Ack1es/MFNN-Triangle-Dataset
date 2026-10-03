@@ -1,0 +1,42 @@
+{
+  "dataset_type": "synthetic triangle parameters",
+  "samples": 10000,
+  "seed": 42,
+  "dtype": "float32",
+  "npz_array_name": "clean",
+  "columns": [
+    "a",
+    "b",
+    "theta_ab",
+    "theta_b",
+    "c",
+    "theta_c"
+  ],
+  "sampling": {
+    "a": {
+      "distribution": "uniform",
+      "minimum": 0.5,
+      "maximum": 5.0
+    },
+    "b": {
+      "distribution": "uniform",
+      "minimum": 0.5,
+      "maximum": 5.0
+    },
+    "theta_ab": {
+      "distribution": "uniform",
+      "minimum_radians": 0.5235987755982988,
+      "maximum_radians": 2.6179938779914944
+    }
+  },
+  "derived_parameters": {
+    "c": "sqrt(a^2 + b^2 - 2*a*b*cos(theta_ab))",
+    "theta_b": "acos((a^2 + c^2 - b^2)/(2*a*c))",
+    "theta_c": "pi - theta_ab - theta_b"
+  },
+  "units": {
+    "side_lengths": "synthetic length unit",
+    "angles": "radian"
+  },
+  "index": "zero-based sample_index in the CSV; original row order preserved"
+}

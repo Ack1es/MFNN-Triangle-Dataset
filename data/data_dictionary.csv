@@ -1,0 +1,8 @@
+field,description,unit
+sample_index,Zero-based row index in the original clean array,dimensionless
+a,First side enclosing theta_ab,synthetic length unit
+b,Second side enclosing theta_ab,synthetic length unit
+theta_ab,Included angle between a and b opposite c,radian
+theta_b,Angle opposite side b,radian
+c,Side opposite theta_ab,synthetic length unit
+theta_c,Angle opposite side a,radian
