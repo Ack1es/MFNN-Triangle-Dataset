@@ -108,6 +108,6 @@ Wang, L.-c., Li, X., & Chen, Z.-y. *Mutual Feedback Neural Network for Implicit 
 
 The dataset repository URL is recorded in `CITATION.cff`. Publication details for the associated manuscript are not yet recorded. No journal acceptance, publication year, or DOI is implied by this citation.
 
-## License
+## Use and Attribution
 
-A distribution license has not yet been selected. Public visibility alone does not grant permission to reuse or redistribute the code or data. This section will be updated after the authors confirm the license.
+The authors welcome use of this synthetic dataset and its construction code. Citation of this repository and the associated manuscript, when available, is appreciated but is not a condition of use. No separate standard license has been applied.

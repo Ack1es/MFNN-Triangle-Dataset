@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this synthetic triangle dataset, please cite this dataset and the associated manuscript when available."
+message: "Citation of this dataset and the associated manuscript, when available, is appreciated but is not a condition of use."
 type: dataset
 title: "MFNN Triangle Dataset"
 version: 1.0.0
